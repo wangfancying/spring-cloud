@@ -4,6 +4,7 @@ encrypt:
 
 
 
+#使用 eureka 注册中心
 eureka:
     client:
       serviceUrl:

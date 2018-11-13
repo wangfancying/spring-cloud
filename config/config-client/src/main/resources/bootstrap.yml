@@ -6,7 +6,12 @@ spring:
         enabled: true
         service-id: config-server
 
+#spring.cloud.config.name对应config配置服务器中的{application}
+#spring.cloud.config.profile对应config配置服务器中的{profile}
+#spring.cloud.config.label对应config配置服务器中的{label}
+#spring.cloud.config.url对应config配置服务器的域名，在不使用复现服务的时候可以使用
 
+#使用 eureka 注册中心
 eureka:
   client:
     serviceUrl:

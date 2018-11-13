@@ -1,2 +1,3 @@
+ #config client的serverId
  application:
     name: spring-server

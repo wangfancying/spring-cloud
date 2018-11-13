@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
+ * 使用注解@Value读取配置文件中的值
  *
  * @author hui.wang09
  * @since 13 November 2018

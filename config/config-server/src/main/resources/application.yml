@@ -1,9 +1,11 @@
+#配置config server的端口
 server:
   port: 8081
 
+
 spring:
   application:
-    name: config-server
+    name: config-server #config server的serverId
   cloud:
     config:
       server:
@@ -16,4 +18,7 @@ spring:
         encrypt:
           enabled: false
 
-
+# uri表示配置中心所在仓库的位置
+# search-paths表示仓库下的子目录
+# username表示你的GitHub用户名
+# password表示你的GitHub密码
