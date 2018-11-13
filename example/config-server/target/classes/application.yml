@@ -1,0 +1,27 @@
+server:
+  port: 8081
+
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/wangfancying/spirng-config
+          search-paths: /**
+          username: wangfancying@163.com
+          password: wanghui425508180
+        #spring.cloud.config.server.encrypt.enabled设置是否禁用服务器端属性解密
+        encrypt:
+          enabled: false
+
+
+
+# 配置security
+#security:
+#  user:
+#    name: hui
+#    password: 123
+

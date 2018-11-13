@@ -1,0 +1,3 @@
+# 配置加密秘钥
+encrypt:
+  key: test

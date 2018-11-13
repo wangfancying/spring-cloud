@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    config:
+      name: spring-test-config  # 和git里的文件名对应
+      discovery:
+        enabled: true
+        service-id: config-server
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8765/eureka
+
+# 配置加密秘钥
+encrypt:
+  key: test

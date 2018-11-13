@@ -1,0 +1,22 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8081
+      name: spring-test-config      # 和git里的文件名对应
+#      password: 123
+#      username: hui
+
+
+  application:
+    name: spring-server
+
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka
+#
+
+
+
+
+

@@ -1,0 +1,11 @@
+# 配置加密秘钥
+encrypt:
+  key: test
+
+
+
+eureka:
+    client:
+      serviceUrl:
+        #注册中心的地址
+        defaultZone: http://localhost:8765/eureka/
