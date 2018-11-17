@@ -52,14 +52,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consumer-server/src/main/java/com/hui/wang/spring/cloud/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-731">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="214">
+              <caret line="73" column="4" lean-forward="true" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="81">
+                <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -114,16 +127,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReqBody.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/src/main/java/com/hui/wang/spring/cloud/api/model/ReqBody.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="29" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -167,6 +170,7 @@
         <option value="$PROJECT_DIR$/consumer-server/src/main/java/com/hui/wang/spring/cloud/controller/Controller.java" />
         <option value="$PROJECT_DIR$/provider-server/pom.xml" />
         <option value="$PROJECT_DIR$/provider-server/src/main/java/com/hui/wang/spring/cloud/controller/ProviderController.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -211,301 +215,6 @@
             <path>
               <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hui" type="462c0819:PsiDirectoryNode" />
-              <item name="wang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hui" type="462c0819:PsiDirectoryNode" />
-              <item name="wang" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hui" type="462c0819:PsiDirectoryNode" />
-              <item name="wang" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hui" type="462c0819:PsiDirectoryNode" />
-              <item name="wang" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hui" type="462c0819:PsiDirectoryNode" />
-              <item name="wang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hui" type="462c0819:PsiDirectoryNode" />
-              <item name="wang" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hui" type="462c0819:PsiDirectoryNode" />
-              <item name="wang" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hui" type="462c0819:PsiDirectoryNode" />
-              <item name="wang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hui" type="462c0819:PsiDirectoryNode" />
-              <item name="wang" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hui" type="462c0819:PsiDirectoryNode" />
-              <item name="wang" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hui" type="462c0819:PsiDirectoryNode" />
-              <item name="wang" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -684,12 +393,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542275163614</updated>
-      <workItem from="1542275165766" duration="17042000" />
+      <workItem from="1542275165766" duration="17239000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17042000" />
+    <option name="totallyTimeSpent" value="17239000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="730" extended-state="6" />
@@ -717,7 +426,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2536349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2536349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1129,11 +838,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/consumer-server/src/main/java/com/hui/wang/spring/cloud/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-731">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="214">
+          <caret line="73" column="4" lean-forward="true" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="81">
+            <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
