@@ -1,0 +1,7 @@
+eureka:
+  instance:
+    prefer-ip-address: true #注册服务的IP
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+    register-with-eureka: true
