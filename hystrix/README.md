@@ -1,5 +1,5 @@
 ### Hystrix的简单使用
-主要代码都在`consumer-server`项目里面，对`consumer-server`项目里面代码接口做简单的说明
+主要代码都在`consumer-server`项目里面，对`consumer-server`项目里面代码结构做简单的说明
 * `config`: fastJson的配置
 * `context`: 主要是用户信息上下文的定义
 * `controller`: 这里是对hystrix简单使用
