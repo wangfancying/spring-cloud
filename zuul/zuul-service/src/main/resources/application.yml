@@ -1,0 +1,49 @@
+spring:
+  application:
+    name: zuul-server
+server:
+  port: 8822
+
+
+#整合eureka
+eureka:
+  instance:
+    prefer-ip-address: true #注册服务的IP
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+    register-with-eureka: true
+    fetch-registry: true
+
+
+zuul:
+  routes:
+    consumer-server:  #手动定义路由映射
+      path: /a/**
+      url: consumer-server
+    provider-server:    #手动定义路由映射
+      path: /api/**
+      url: provider-server
+#zuul:
+#  routes:
+#    provider: /provider-server/**   #手动定义路由映射
+#
+##    licensestatis:
+##      path: /baidu/**
+##      url: http://www.baidu.com #配置静态路由
+#  ignored-services: provider-server #排除基于Eureka的路由
+
+
+
+#===================================================================
+#配置api prefix
+#zuul:
+##  prefix: /api  #设置服务前缀
+##  ignored-services: '*' # 排除所有eureka的路由
+#  routes:
+#    provider: /provider-server/** #手动添加路由
+
+
+
+
+
