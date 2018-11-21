@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: security-server
+server:
+  port: 9090
+  context-path: /auth
+
+
+eureka:
+  instance:
+    prefer-ip-address: true #注册服务的IP
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+    register-with-eureka: true

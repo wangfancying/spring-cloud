@@ -1,0 +1,44 @@
+package com.hui.wang.spring.cloud.config;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
+import org.springframework.security.oauth2.provider.token.DefaultTokenServices;
+import org.springframework.security.oauth2.provider.token.TokenStore;
+import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;
+import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
+
+/**
+ * TODO completion javadoc.
+ *
+ * @author hui.wang09
+ * @since 20 November 2018
+ */
+@Configuration
+public class JWTTokenStoreConfig {
+
+	@Autowired
+	private KeyServiceConfig keyServiceConfig;
+
+	@Bean
+	public TokenStore tokenStore() {
+		return new JwtTokenStore(jwtAccessTokenConverter());
+	}
+
+	@Bean
+	@Primary
+	public DefaultTokenServices tokenServices() {
+		DefaultTokenServices defaultTokenServices = new DefaultTokenServices();
+		defaultTokenServices.setTokenStore(tokenStore());
+		defaultTokenServices.setSupportRefreshToken(true);
+		return defaultTokenServices;
+	}
+
+	@Bean
+	public JwtAccessTokenConverter jwtAccessTokenConverter() {
+		JwtAccessTokenConverter converter = new JwtAccessTokenConverter();
+		converter.setSigningKey(keyServiceConfig.getJwtSiginKey());
+		return converter;
+	}
+}

@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: provider-server
+server:
+  port: 8081
+
+
+security:
+  oauth2:
+    resource:
+       userInfoUri: http://localhost:9099/auth/user
+
+sign:
+  key: wsdfa
