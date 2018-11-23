@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: provider-server
+  sleuth:
+    sampler:
+      percentage: 1
+  zipkin:
+    base-url: http://localhost:8999
+
+server:
+  port: 8081
+

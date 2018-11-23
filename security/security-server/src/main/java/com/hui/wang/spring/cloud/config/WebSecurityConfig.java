@@ -27,6 +27,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
 		return super.userDetailsService();
 	}
 
+	/**
+	 * 定义用户名 密码和角色
+	 */
 	@Override
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
 		auth
