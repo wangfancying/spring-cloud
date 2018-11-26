@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: consumer-server
+  cloud:
+    stream:
+      bindings: # 服务的整合处理
+        input: # 这个名字是一个通道的名称，在分析具体源代码的时候会进行说明
+          destination: publish # 表示要使用的Exchange名称定义
+          content-type: application/json # 设置消息类型，本次为对象json，如果是文本则设置“text/plain”
+          group: consumer-server
+
+  rabbitmq:
+    addresses: 192.168.33.10:5672
+    username: guest
+    password: guest
+
+
+server:
+  port: 8111

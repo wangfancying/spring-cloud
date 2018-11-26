@@ -1,6 +1,32 @@
 spring:
   application:
     name: zipkin-server
+  rabbitmq:
+    addresses: 192.168.33.10:5672
+    username: guest
+    password: guest
+  cloud:
+    stream:
+      bindings:
+        output:
+          content-type: application/json
+        input:
+          content-type: application/json
+
+
 server:
   port: 8999
+
+
+zipkin:
+  storage:
+    type: elasticsearch
+    StorageComponent: elasticsearch
+    elasticsearch:
+      cluster: elasticsearch
+      max-requests: 30
+      index: zipkin
+      index-shards: 3
+      index-replicas: 1
+      hosts: 192.168.33.10:9200
 
